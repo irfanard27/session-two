@@ -1,6 +1,6 @@
 {{-- make category form with bootstap contains field name, slug --}}
 <div>
-  <form action="{{ $route }}" method="POST">
+  <form action="{{ route('category.store') }}" method="POST">
     @csrf
 
     <div class="form-group">
